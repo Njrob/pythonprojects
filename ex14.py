@@ -1,0 +1,24 @@
+from sys import argv
+
+script, user_name, birthday = argv
+prompt = 'Answer: '
+
+print "Hi %s, I'm the %s script." % (user_name, script)
+print "I'd like to ask you a few questions."
+print "Do you like me %s?" % user_name
+likes = raw_input(prompt)
+
+print "Where do you live %s?" % user_name
+lives = raw_input(prompt)
+
+print "What kind of computer do you have?"
+computer = raw_input(prompt)
+
+print "It says here that you were born on %s.  That would make you how old?" % birthday
+age = raw_input(prompt)
+
+print """
+Alright, so you said %r about liking me.
+You live in %r.  Not sure where that is.
+You are %r years old, and you have a %r computer.  Nice.
+""" % (likes, lives, age, computer)

@@ -1,0 +1,56 @@
+Symbols:
+"" or '' - denotes a string
+# - denotes a comment
++ - addition operator; when used on strings, it combines them
+- - subtraction operator
+/ - division operator
+* - multiplication operator
+% - modulus operator; divides one number by another and finds the remainder;
+also used to define formatted variables (below)
+>= - greater than or equal to
+<= - less than or equal to
+, - treated differently in different contexts; outside of the string context the
+comma is used to split up expressions/operations on one line
+= - used to define a variable
+() - used to contain either arguments or variables to be executed
+%s - formatted variable for display representation
+%r - formatted variable for 'raw' representation; shows what the creator typed
+in the script rather than what he desires to see
+%d - formatted variable for integers
+\n - used to denote a line break
+""" or ''' - creates a string literal, or a string that will span multiple lines when the user
+starts a new line
+\ - 'escapes' a character or type of character
+\t - creates a tab
+: - required to come after the arguments of a function, whenever a function is declared
++= - an operation which denotes that we are adding a given number/variable to another number/variable;
+a truncated version of x = x + y in the form of x += y; the left side is always the output
+and this operation says we need to add the left to the right side in order to get the new output (left side)
+
+Words:
+print - evaluates an expression (string, integer, variable) and then 'prints' it
+out for the user to see
+variable - has to begin with a letter
+raw_input() - creates a prompt given to the user to type in and store some information
+from, import - an 'import' statement which will import a certain feature 'from'
+a given module
+sys - the 'sys' library
+argv - the argument variable, which has to be given to the terminal first before
+the script can execute
+open() - a built-in function which is executed on a variable and opens an external file
+read() - a built-in function which will output the text inside a file
+close() - closes and saves a file
+'w' - an optional argument of open(), which will automatically truncate/overwrite the existing text in a file
+truncate() - does the same thing as 'w' within open
+len() - returns either the number of elements in a list, or the number of bytes in a file
+write() - a function used to write a string to a file; it can also take the contents of an open file
+and write them to a new file with a reference to the old file itself
+os.path - imports paths specific to different types of operating systems
+exists - a feature within os.path which uses boolean logic to evaluate whether or not a file exists
+def - declares and defines a function
+int() - converts a string into an integer
+seek() - executed on a file and moves to a defined place within the file in terms of bytes;
+integers are used to define this location
+readline() - reads up to the end of a line in a file and adds a new line-space afterwards
+return - appears similar to print but can only work on functions; it exits a function and returns
+a value to the user
