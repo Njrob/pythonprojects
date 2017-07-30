@@ -13,8 +13,8 @@ def strongPassword(password):
             print("Your password is not strong, try again.")
 
 password1 = 'abc!@#123ABC<>/.,{}\\|'
-password2 = 'Starbutt1'
-password3 = 'starbutt'
+password2 = 'lemao'
+password3 = 'KrakAtoa12'
 strongPassword(password1)
 strongPassword(password2)
 strongPassword(password3)
