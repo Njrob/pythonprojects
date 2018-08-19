@@ -7,3 +7,5 @@ automate the boring stuff
 code academy exercises
 
 datacamp
+
+Excel metadata manipulation
