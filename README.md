@@ -8,4 +8,6 @@ code academy exercises
 
 datacamp
 
-Excel metadata manipulation
+excel metadata manipulation
+
+flatiron school projects
