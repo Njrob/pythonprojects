@@ -4,7 +4,7 @@ dependencies:
   - python 3.7
   - pandas
   - nltk
-  - sklearn
+  - scikit-learn
   - wordcloud
   - matplotlib
   - appmode
