@@ -8,4 +8,4 @@ dependencies:
   - wordcloud
   - matplotlib
   - appmode
-  - nltk.download("stopwords")
+  - stop_words
