@@ -12,4 +12,4 @@ excel metadata manipulation
 
 flatiron school projects
 
-[![CFPB Complaint Data Application](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/Njrob/pythonprojects/master?urlpath=%2Fapps%2Fwidget_practice.ipynb)
+[![CFPB Complaint Data Application](https://img.shields.io/badge/cfpb%20analysis-binder-blue)](https://mybinder.org/v2/gh/Njrob/pythonprojects/master?urlpath=%2Fapps%2Fwidget_practice.ipynb)
