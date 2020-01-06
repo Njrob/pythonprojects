@@ -8,3 +8,4 @@ dependencies:
   - matplotlib
   - appmode
   - nltk
+  - nltk_data
